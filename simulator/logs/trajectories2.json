@@ -1,0 +1,1198 @@
+{
+  "settings": {
+    "buffer_size": 2,
+    "temporary_save_size": 1
+  },
+  "episodes": {
+    "0": [
+      {
+        "action_type": "INITIALIZE",
+        "action": {
+          "buffer_boxes": [
+            [
+              5.0,
+              5.0,
+              2.0
+            ],
+            [
+              4.0,
+              4.0,
+              5.0
+            ]
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            4.0,
+            4.0,
+            5.0
+          ],
+          "from_position": 1,
+          "to_position": [
+            6.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            5.0,
+            5.0,
+            2.0
+          ],
+          "from_position": 0,
+          "to_position": [
+            0.0,
+            5.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 0,
+          "size": [
+            5.0,
+            3.0,
+            4.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 1,
+          "size": [
+            5.0,
+            2.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "action_type": "REMOVAL",
+        "action": {
+          "size": [
+            4.0,
+            4.0,
+            5.0
+          ],
+          "from_position": [
+            6.0,
+            0.0,
+            0.0
+          ],
+          "to_position": 4
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            3.0,
+            5.0,
+            4.0
+          ],
+          "from_position": 0,
+          "to_position": [
+            0.0,
+            5.0,
+            2.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 0,
+          "size": [
+            3.0,
+            5.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            3.0,
+            5.0,
+            1.0
+          ],
+          "from_position": 0,
+          "to_position": [
+            5.0,
+            5.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 0,
+          "size": [
+            2.0,
+            5.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            4.0,
+            4.0,
+            5.0
+          ],
+          "from_position": 2,
+          "to_position": [
+            6.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "action_type": "REMOVAL",
+        "action": {
+          "size": [
+            3.0,
+            5.0,
+            4.0
+          ],
+          "from_position": [
+            0.0,
+            5.0,
+            2.0
+          ],
+          "to_position": 4
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            2.0,
+            5.0,
+            1.0
+          ],
+          "from_position": 1,
+          "to_position": [
+            8.0,
+            5.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            3.0,
+            5.0,
+            4.0
+          ],
+          "from_position": 2,
+          "to_position": [
+            7.0,
+            5.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            2.0,
+            5.0,
+            1.0
+          ],
+          "from_position": 0,
+          "to_position": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 0,
+          "size": [
+            1.0,
+            3.0,
+            3.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 1,
+          "size": [
+            2.0,
+            4.0,
+            4.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            3.0,
+            1.0,
+            3.0
+          ],
+          "from_position": 0,
+          "to_position": [
+            7.0,
+            4.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 0,
+          "size": [
+            3.0,
+            1.0,
+            4.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            1.0,
+            3.0,
+            4.0
+          ],
+          "from_position": 0,
+          "to_position": [
+            5.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 0,
+          "size": [
+            1.0,
+            5.0,
+            5.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            1.0,
+            5.0,
+            5.0
+          ],
+          "from_position": 0,
+          "to_position": [
+            4.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 0,
+          "size": [
+            5.0,
+            4.0,
+            3.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            4.0,
+            5.0,
+            3.0
+          ],
+          "from_position": 0,
+          "to_position": [
+            0.0,
+            5.0,
+            2.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 0,
+          "size": [
+            5.0,
+            3.0,
+            3.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            3.0,
+            5.0,
+            3.0
+          ],
+          "from_position": 0,
+          "to_position": [
+            4.0,
+            5.0,
+            2.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 0,
+          "size": [
+            5.0,
+            2.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "action_type": "REMOVAL",
+        "action": {
+          "size": [
+            1.0,
+            3.0,
+            4.0
+          ],
+          "from_position": [
+            5.0,
+            0.0,
+            0.0
+          ],
+          "to_position": 7
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            2.0,
+            5.0,
+            1.0
+          ],
+          "from_position": 0,
+          "to_position": [
+            8.0,
+            5.0,
+            5.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 0,
+          "size": [
+            5.0,
+            3.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            2.0,
+            4.0,
+            4.0
+          ],
+          "from_position": 1,
+          "to_position": [
+            8.0,
+            6.0,
+            6.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 1,
+          "size": [
+            5.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            1.0,
+            3.0,
+            4.0
+          ],
+          "from_position": 2,
+          "to_position": [
+            5.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            5.0,
+            1.0,
+            1.0
+          ],
+          "from_position": 1,
+          "to_position": [
+            5.0,
+            4.0,
+            3.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 1,
+          "size": [
+            2.0,
+            3.0,
+            4.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            3.0,
+            5.0,
+            1.0
+          ],
+          "from_position": 0,
+          "to_position": [
+            5.0,
+            5.0,
+            5.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            2.0,
+            3.0,
+            4.0
+          ],
+          "from_position": 1,
+          "to_position": [
+            6.0,
+            7.0,
+            6.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 0,
+          "size": [
+            2.0,
+            2.0,
+            2.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 1,
+          "size": [
+            5.0,
+            4.0,
+            2.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            4.0,
+            5.0,
+            2.0
+          ],
+          "from_position": 1,
+          "to_position": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 1,
+          "size": [
+            2.0,
+            3.0,
+            3.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            3.0,
+            2.0,
+            3.0
+          ],
+          "from_position": 1,
+          "to_position": [
+            5.0,
+            5.0,
+            6.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 1,
+          "size": [
+            2.0,
+            5.0,
+            2.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            2.0,
+            5.0,
+            2.0
+          ],
+          "from_position": 1,
+          "to_position": [
+            0.0,
+            0.0,
+            2.0
+          ]
+        }
+      },
+      {
+        "action_type": "REMOVAL",
+        "action": {
+          "size": [
+            3.0,
+            2.0,
+            3.0
+          ],
+          "from_position": [
+            5.0,
+            5.0,
+            6.0
+          ],
+          "to_position": 11
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "from_position": 0,
+          "to_position": [
+            2.0,
+            3.0,
+            2.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 0,
+          "size": [
+            2.0,
+            3.0,
+            5.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 1,
+          "size": [
+            4.0,
+            3.0,
+            2.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            3.0,
+            4.0,
+            2.0
+          ],
+          "from_position": 1,
+          "to_position": [
+            2.0,
+            6.0,
+            5.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            2.0,
+            3.0,
+            5.0
+          ],
+          "from_position": 0,
+          "to_position": [
+            0.0,
+            7.0,
+            5.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            2.0,
+            3.0,
+            3.0
+          ],
+          "from_position": 2,
+          "to_position": [
+            2.0,
+            7.0,
+            7.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 0,
+          "size": [
+            1.0,
+            5.0,
+            2.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 1,
+          "size": [
+            4.0,
+            5.0,
+            5.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            1.0,
+            5.0,
+            2.0
+          ],
+          "from_position": 0,
+          "to_position": [
+            4.0,
+            5.0,
+            7.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            4.0,
+            5.0,
+            5.0
+          ],
+          "from_position": 1,
+          "to_position": [
+            6.0,
+            0.0,
+            5.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 0,
+          "size": [
+            4.0,
+            2.0,
+            3.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 1,
+          "size": [
+            4.0,
+            3.0,
+            3.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            3.0,
+            4.0,
+            3.0
+          ],
+          "from_position": 1,
+          "to_position": [
+            0.0,
+            1.0,
+            4.0
+          ]
+        }
+      },
+      {
+        "action_type": "REMOVAL",
+        "action": {
+          "size": [
+            2.0,
+            3.0,
+            3.0
+          ],
+          "from_position": [
+            2.0,
+            7.0,
+            7.0
+          ],
+          "to_position": 9
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            2.0,
+            4.0,
+            3.0
+          ],
+          "from_position": 0,
+          "to_position": [
+            2.0,
+            6.0,
+            7.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            3.0,
+            2.0,
+            3.0
+          ],
+          "from_position": 2,
+          "to_position": [
+            5.0,
+            5.0,
+            6.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 0,
+          "size": [
+            5.0,
+            1.0,
+            3.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 1,
+          "size": [
+            3.0,
+            5.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            1.0,
+            5.0,
+            3.0
+          ],
+          "from_position": 0,
+          "to_position": [
+            5.0,
+            0.0,
+            4.0
+          ]
+        }
+      },
+      {
+        "action_type": "REMOVAL",
+        "action": {
+          "size": [
+            3.0,
+            4.0,
+            3.0
+          ],
+          "from_position": [
+            0.0,
+            1.0,
+            4.0
+          ],
+          "to_position": 10
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            3.0,
+            5.0,
+            1.0
+          ],
+          "from_position": 1,
+          "to_position": [
+            0.0,
+            0.0,
+            4.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            4.0,
+            3.0,
+            3.0
+          ],
+          "from_position": 2,
+          "to_position": [
+            0.0,
+            3.0,
+            5.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 0,
+          "size": [
+            1.0,
+            1.0,
+            5.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 1,
+          "size": [
+            3.0,
+            5.0,
+            3.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            1.0,
+            1.0,
+            5.0
+          ],
+          "from_position": 0,
+          "to_position": [
+            3.0,
+            2.0,
+            2.0
+          ]
+        }
+      },
+      {
+        "action_type": "REMOVAL",
+        "action": {
+          "size": [
+            4.0,
+            3.0,
+            3.0
+          ],
+          "from_position": [
+            0.0,
+            3.0,
+            5.0
+          ],
+          "to_position": 13
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            3.0,
+            4.0,
+            3.0
+          ],
+          "from_position": 2,
+          "to_position": [
+            3.0,
+            0.0,
+            7.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            3.0,
+            5.0,
+            3.0
+          ],
+          "from_position": 1,
+          "to_position": [
+            0.0,
+            0.0,
+            5.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 0,
+          "size": [
+            3.0,
+            5.0,
+            1.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 1,
+          "size": [
+            3.0,
+            3.0,
+            5.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            3.0,
+            5.0,
+            1.0
+          ],
+          "from_position": 0,
+          "to_position": [
+            0.0,
+            0.0,
+            8.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 0,
+          "size": [
+            1.0,
+            3.0,
+            3.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            1.0,
+            3.0,
+            3.0
+          ],
+          "from_position": 0,
+          "to_position": [
+            5.0,
+            7.0,
+            6.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 0,
+          "size": [
+            3.0,
+            1.0,
+            5.0
+          ]
+        }
+      },
+      {
+        "action_type": "PACKING",
+        "action": {
+          "size": [
+            3.0,
+            1.0,
+            5.0
+          ],
+          "from_position": 0,
+          "to_position": [
+            1.0,
+            5.0,
+            5.0
+          ]
+        }
+      },
+      {
+        "action_type": "GENERATE",
+        "action": {
+          "area": "BUFFER",
+          "at": 0,
+          "size": [
+            5.0,
+            4.0,
+            4.0
+          ]
+        }
+      },
+      {
+        "action_type": "FINALIZE",
+        "action": {}
+      }
+    ],
+    "1": [
+      {
+        "action_type": "INITIALIZE",
+        "action": {
+          "buffer_boxes": [
+            [
+              5.0,
+              2.0,
+              3.0
+            ],
+            [
+              3.0,
+              3.0,
+              2.0
+            ]
+          ]
+        }
+      }
+    ]
+  }
+}

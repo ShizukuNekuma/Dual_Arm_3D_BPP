@@ -1,0 +1,10 @@
+#usda 1.0
+(
+    customLayerData = {
+        dictionary renderSettings = {
+            bool "rtx:ecoMode:enabled" = 1
+            double "rtx:translucency:worldEps" = 0.005
+        }
+    }
+)
+

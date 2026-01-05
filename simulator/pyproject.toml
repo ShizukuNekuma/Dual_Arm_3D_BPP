@@ -6,13 +6,26 @@ authors = [
     {name = "Azusa",email = "zifeng.liao@qq.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.11.dev0"
 dependencies = [
+    "isaacsim[all,extscache] (==4.5.0)",
+    "setuptools (>=80.9.0,<81.0.0)",
+    "typeguard (>=4.4.4,<5.0.0)",
+    "requests (>=2.32.5,<3.0.0)",
+    "webcolors (>=25.10.0,<26.0.0)"
 ]
 
 [tool.poetry]
 packages = [{include = "simulator", from = "src"}]
 
+[[tool.poetry.source]]
+name = "nvidia"
+url = "https://pypi.nvidia.com"
+priority = "supplemental"
+
+
+[tool.poetry.dependencies]
+isaacsim = {source = "nvidia"}
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
