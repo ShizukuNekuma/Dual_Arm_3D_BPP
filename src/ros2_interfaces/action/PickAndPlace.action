@@ -1,0 +1,13 @@
+# ===== Goal =====
+# A list of pick/place actions derived from a dependency graph
+string action_list
+
+---
+# ===== Result =====
+# Indicates whether execution finished successfully
+bool done
+
+---
+# ===== Feedback =====
+# Runtime execution feedback
+bool progress

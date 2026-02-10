@@ -1,0 +1,3 @@
+string action_list # a list of pick/place actions derived from sequential dependencies graph
+---
+bool done # a flag indicates the end of execution
